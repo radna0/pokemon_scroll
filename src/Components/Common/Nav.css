@@ -1,0 +1,30 @@
+.navbar_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.navbar_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem;
+}
+.navbar_links a{
+    color: #000000;
+    text-decoration: none;
+    padding: 2rem;
+    width: 400px;
+    font-size: 2rem;
+    
+    background-color: rgb(255, 224, 83);
+    border: 1px solid rgb(255, 224, 83);
+    border-radius: 5px;
+}
+
+.navbar_links a:hover{
+    background-color: #81b29a;
+    border: 1px solid #81b29a;
+    color: white;
+}
