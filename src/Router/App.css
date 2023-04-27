@@ -1,8 +1,17 @@
-*{
-    font-family: sans-serif;
+* {
+  font-family: sans-serif;
 }
-body{
-    background-color: #3d405b;
-    margin: 0;
-    padding: 0;
+body {
+  background-color: hsl(235, 39%, 17%);
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-image: url(./../../public/pokeball-icon.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-x: -180px;
+  background-position-y: -80px;
+  width: 100%;
 }
